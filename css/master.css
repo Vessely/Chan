@@ -1,0 +1,73 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #000;
+  background-image: url("../resources/background.png");
+  background-repeat: repeat-x;
+}
+input[type=text]{
+  width: 100%;
+  border: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+input[type=file]{
+  display: none;
+}
+textarea{
+  width: 100%;
+  height: 300px;
+  resize: none;
+  border: 0;
+  padding: 2px;
+}
+form{
+  width: 100%;
+  height: 450px;
+  background-color: #171C16;
+  padding: 5px;
+}
+.container{
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  overflow: auto;
+}
+.spacer{
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.custom-input{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 3px solid black;
+  border-style: dashed;
+  /*Elizabeth Bentley*/
+}
+.submit{
+  width: 20%;
+  height: auto;
+  float: right;
+  text-align: center;
+  padding: 2px;
+  background-color:#529E5A;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+.submit:hover{
+  background:#69B370;
+}
+/* Board */

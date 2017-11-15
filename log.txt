@@ -1,0 +1,5 @@
+commit 9e2bb2dd4dc28454f0666f45a543177574bf20da
+Author: Alberto Ocaranza <ocalbernza@gmail.com>
+Date:   Tue Nov 14 18:15:37 2017 -0600
+
+    Primera fase del proyecto con los archivos funcionando de manera estable.
